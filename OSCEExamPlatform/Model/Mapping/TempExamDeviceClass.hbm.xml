@@ -1,0 +1,25 @@
+﻿<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="Tellyes.Model" namespace="Tellyes.Model">
+  <class name="Tellyes.Model.TempExamDeviceClass, Tellyes.Model" table="TempExamDeviceClass">
+    <id name="TempExamDeviceClassID" column="TempExamDeviceClassID" type="int" unsaved-value="0">
+      <generator class="native" />
+    </id>
+    <property name="TempExamTableID" column="TempExamTableID" type="Guid"  />
+    <property name="TempExamStationID" column="TempExamStationID" type="Guid"  />
+    <property name="TempExamStationRoomID" column="TempExamStationRoomID" type="Guid"  />
+    <property name="RoomID" column="RoomID" type="int"  />
+    <property name="DeviceClassID" column="DeviceClassID" type="int"  />
+    <property name="DeviceCount" column="DeviceCount" type="int"  />
+    <property name="ObjectiveMarkSheetID" column="ObjectiveMarkSheetID" type="int"  />
+    <property name="TempExamDeviceClassNumber1" column="TempExamDeviceClassNumber1" type="int"  />
+    <property name="TempExamDeviceClassNumber2" column="TempExamDeviceClassNumber2" type="int"  />
+    <property name="TempExamDeviceClassNumber3" column="TempExamDeviceClassNumber3" type="decimal"  />
+    <property name="TempExamDeviceClassNumber4" column="TempExamDeviceClassNumber4" type="decimal"  />
+    <property name="TempExamDeviceClassString1" column="TempExamDeviceClassString1" type="string"  />
+    <property name="TempExamDeviceClassString2" column="TempExamDeviceClassString2" type="string"  />
+    <property name="TempExamDeviceClassString3" column="TempExamDeviceClassString3" type="string"  />
+    <property name="TempExamDeviceClassString4" column="TempExamDeviceClassString4" type="string"  />
+    <property name="TempExamDeviceClassDatetime1" column="TempExamDeviceClassDatetime1" type="DateTime"  />
+    <property name="TempExamDeviceClassDatetime2" column="TempExamDeviceClassDatetime2" type="DateTime"  />
+  </class>
+</hibernate-mapping>

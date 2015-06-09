@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="Tellyes.Model" namespace="Tellyes.Model">
+  <class name="Tellyes.Model.Organization, Tellyes.Model" table="Organization">
+    <id name="O_ID" column="O_ID" type="int" unsaved-value="0">
+      <generator class="native" />
+    </id>
+    <property name="O_Name" column="O_Name" type="string"  />
+    <property name="O_Contont" column="O_Contont" type="string"  />
+    <property name="O_ParentID" column="O_ParentID" type="int"  />
+    <property name="OL_ID" column="OL_ID" type="int"  />
+  </class>
+</hibernate-mapping>

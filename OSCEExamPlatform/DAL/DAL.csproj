@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9FE00521-3A8B-42B1-814E-585E99407B2E}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>Tellyes.DAL</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Tellyes.DAL</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <PublishUrl>http://localhost/Maticsoft.DAL/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Iesi.Collections, Version=1.0.1.0, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\NHibernateUtility\Lib\Iesi.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=5.1.5.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\MySql.Data.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="NHibernate, Version=3.3.1.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\NHibernateUtility\Lib\NHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Activities.DurableInstancing" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Services">
+      <Name>System.Web.Services</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <ProjectReference Include="..\..\Log4NetUtility\Log4NetUtility.csproj">
+      <Project>{5F9A47DE-7C2D-4C42-B874-FBAA7331D4D8}</Project>
+      <Name>Log4NetUtility</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\NHibernateUtility\NHibernateUtility.csproj">
+      <Project>{9EDA436C-A405-484E-B075-4C8AAE975129}</Project>
+      <Name>NHibernateUtility</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{E3D8759A-C5EB-402D-9F10-F5C6029A8D1A}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DBUtility\DBUtility.csproj">
+      <Project>{0988C62E-247F-471F-A183-DB509C7A3839}</Project>
+      <Name>DBUtility</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Name>Model</Name>
+      <Project>{53995DBB-9836-4647-AD22-865884FDEB9E}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AllUserInfoView.cs" />
+    <Compile Include="CameraDAL.cs" />
+    <Compile Include="ManagementRelation.cs" />
+    <Compile Include="PcDeviceCamera.cs" />
+    <Compile Include="DeviceBorrow.cs" />
+    <Compile Include="DeviceException.cs" />
+    <Compile Include="DeviceLog.cs" />
+    <Compile Include="DeviceMaintain.cs" />
+    <Compile Include="DeviceUse.cs" />
+    <Compile Include="ExamClass.cs" />
+    <Compile Include="ExamDevice.cs" />
+    <Compile Include="ExamPageInfo.cs" />
+    <Compile Include="ExamRoomDevice.cs" />
+    <Compile Include="ExamUserExamTableView.cs" />
+    <Compile Include="Device.cs" />
+    <Compile Include="DeviceClassOriginal.cs" />
+    <Compile Include="DeviceManufacturer.cs" />
+    <Compile Include="ExamQuestionInfo.cs" />
+    <Compile Include="ExamStation.cs" />
+    <Compile Include="ExamStationClass.cs" />
+    <Compile Include="ExamStation_Room.cs" />
+    <Compile Include="ExamStudent.cs" />
+    <Compile Include="ExamTable.cs" />
+    <Compile Include="ExamTimeInfo.cs" />
+    <Compile Include="ExamUser.cs" />
+    <Compile Include="ExamUserMarkSheet.cs" />
+    <Compile Include="ExamUser_TempExtension.cs" />
+    <Compile Include="GlobalParametersSetting.cs" />
+    <Compile Include="Iconlibrary.cs" />
+    <Compile Include="IllnessCase.cs" />
+    <Compile Include="IllnessCaseScript.cs" />
+    <Compile Include="IllnessCaseScriptMarkSheet.cs" />
+    <Compile Include="IllnessCaseSP.cs" />
+    <Compile Include="JavaScriptConverter.cs" />
+    <Compile Include="JavaScriptSerializer.cs" />
+    <Compile Include="MarkSheet.cs" />
+    <Compile Include="MarkSheetItem.cs" />
+    <Compile Include="MarkSheetKind.cs" />
+    <Compile Include="ModuleGroup.cs" />
+    <Compile Include="MultiStationExamArrangement.cs" />
+    <Compile Include="MultiStationExam_DeviceClass.cs" />
+    <Compile Include="MultiStationExam_IllnessCase.cs" />
+    <Compile Include="ObjectiveMarkSheet.cs" />
+    <Compile Include="OSCEExamArrangement_ExamStudent_ExamStationRoom2.cs" />
+    <Compile Include="OSCEExamArrangement_ExamStudent_ExamStationRoom_TableView.cs" />
+    <Compile Include="OSCEExaminationArrangement.cs" />
+    <Compile Include="OSCEStationExamRoom_DeviceClass.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PropertyValue.cs" />
+    <Compile Include="QuestionInfo.cs" />
+    <Compile Include="QuestionOption.cs" />
+    <Compile Include="QuestionType.cs" />
+    <Compile Include="Reservation.cs" />
+    <Compile Include="ReservationResource.cs" />
+    <Compile Include="ReservationTimeInfo.cs" />
+    <Compile Include="Room1.cs" />
+    <Compile Include="RoomExamStationClassRelation.cs" />
+    <Compile Include="ScoreInfo.cs" />
+    <Compile Include="ScoreLog.cs" />
+    <Compile Include="ScoreSummariedScore.cs" />
+    <Compile Include="SingleStationExamArrangement.cs" />
+    <Compile Include="SingleStationExamRoom_DeviceClass.cs" />
+    <Compile Include="SingleStationExam_IllnessCase.cs" />
+    <Compile Include="SysManage.cs" />
+    <Compile Include="Module.cs" />
+    <Compile Include="ModuleRole.cs" />
+    <Compile Include="Organization.cs" />
+    <Compile Include="Organization_Level.cs" />
+    <Compile Include="Role.cs" />
+    <Compile Include="SystemDevice.cs" />
+    <Compile Include="TempExamDeviceClass.cs" />
+    <Compile Include="TempExamIllnessCase.cs" />
+    <Compile Include="TempExamLog.cs" />
+    <Compile Include="TempExamStation.cs" />
+    <Compile Include="TempExamStationRoom.cs" />
+    <Compile Include="TempExamStudent.cs" />
+    <Compile Include="TempExamTable.cs" />
+    <Compile Include="TempExamTimeInfo.cs" />
+    <Compile Include="TempExamUser.cs" />
+    <Compile Include="TempExamUserMarkSheet.cs" />
+    <Compile Include="TestQuestionRelation.cs" />
+    <Compile Include="UserInfo.cs" />
+    <Compile Include="UserOrganization.cs" />
+    <Compile Include="UserPhoto.cs" />
+    <Compile Include="UserProperty.cs" />
+    <Compile Include="UserRole.cs" />
+    <Compile Include="RoomDAL.cs" />
+    <Compile Include="DeviceClassDAL.cs" />
+    <Compile Include="VideoPathInfoDAL.cs" />
+    <Compile Include="ExamFeedback.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MySql.Data.dll" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

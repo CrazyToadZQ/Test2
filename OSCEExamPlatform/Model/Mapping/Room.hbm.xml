@@ -1,0 +1,17 @@
+﻿<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="Tellyes.Model" namespace="Tellyes.Model">
+  <class name="Tellyes.Model.Room, Tellyes.Model" table="Room">
+    <id name="RoomID" column="Room_ID" type="int" unsaved-value="0">
+      <generator class="native" />
+    </id>
+    <property name="ParentRoomID" column="Parent_Room_ID" type="int"  />
+    <property name="RoomName" column="Room_Name" type="string"  />
+    <property name="RoomArea" column="Room_Area" type="string"  />
+    <property name="RoomPeopleNumber" column="Room_People_Number" type="int"  />
+    <property name="RoomStationNumber" column="Room_Station_Number" type="int"  />
+    <property name="RoomISBindingDevice" column="Room_IS_Binding_Device" type="int"  />
+    <property name="RoomDeviceName" column="Room_Device_Name" type="string"  />
+    <property name="RoomDescribe" column="Room_Describe" type="string"  />
+    <property name="IsExist" column="Number1" type="int"  />
+  </class>
+</hibernate-mapping>

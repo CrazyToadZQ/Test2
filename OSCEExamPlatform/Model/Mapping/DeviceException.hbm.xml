@@ -1,0 +1,23 @@
+﻿<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="Tellyes.Model" namespace="Tellyes.Model">
+  <class name="Tellyes.Model.DeviceException, Tellyes.Model" table="DeviceException">
+    <id name="DE_ID" column="DE_ID" type="int" unsaved-value="0">
+      <generator class="native" />
+    </id>
+    <property name="D_ID" column="D_ID" type="int"  />
+    <property name="DE_StartTime" column="DE_StartTime" type="DateTime"  />
+    <property name="DE_EndTime" column="DE_EndTime" type="DateTime"  />
+    <property name="DE_TimeSpan" column="DE_TimeSpan" type="int"  />
+    <property name="DE_Description" column="DE_Description" type="string"  />
+    <property name="DE_Solve_Method" column="DE_Solve_Method" type="string"  />
+    <property name="DE_Number1" column="DE_Number1" type="int"  />
+    <property name="DE_Number2" column="DE_Number2" type="int"  />
+    <property name="DE_Number3" column="DE_Number3" type="int"  />
+    <property name="DE_Number4" column="DE_Number4" type="int"  />
+    <property name="DE_String1" column="DE_String1" type="string"  />
+    <property name="DE_String2" column="DE_String2" type="string"  />
+    <property name="DE_String3" column="DE_String3" type="string"  />
+    <property name="DE_String4" column="DE_String4" type="string"  />
+    <property name="DE_String5" column="DE_String5" type="string"  />
+  </class>
+</hibernate-mapping>

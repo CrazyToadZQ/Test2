@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="Tellyes.Model" namespace="Tellyes.Model">
+  <class name="Tellyes.Model.Reservation, Tellyes.Model" table="Reservation">
+    <id name="ReservationID" column="ReservationID" type="int" unsaved-value="0">
+      <generator class="native" />
+    </id>
+    <property name="ReservationCode" column="ReservationCode" type="string" />
+    <property name="ReservationType" column="ReservationType" type="string" />
+    <property name="ReservationName" column="ReservationName" type="string" />
+    <property name="EnityID" column="EnityID" type="string"  />
+    <property name="ReservationStartTime" column="ReservationStartTime" type="DateTime"  />
+    <property name="ReservationEndTime" column="ReservationEndTime" type="DateTime"  />
+    <property name="Remark" column="Remark" type="string"  />
+    <property name="IsExamine" column="IsExamine" type="int"  />
+    <property name="ExamineState" column="ExamineState" type="string"  />
+    <property name="ExamineMessage" column="ExamineMessage" type="string"  />
+    <property name="ApplyUserInfoID" column="ApplyUserInfoID" type="int"  />
+    <property name="ApplyRoleName" column="ApplyRoleName" type="string"  />
+    <property name="ApplyUserInfoTureName" column="ApplyUserInfoTureName" type="string"  />
+    <property name="ApplyDatetime" column="ApplyDatetime" type="DateTime"  />
+    <property name="ExamineUserInfoID" column="ExamineUserInfoID" type="int"  />
+    <property name="ExamineRoleName" column="ExamineRoleName" type="string"  />
+    <property name="ExamineUserInfoTrueName" column="ExamineUserInfoTrueName" type="string"  />
+    <property name="ExamineDatetime" column="ExamineDatetime" type="DateTime"  />
+  </class>
+</hibernate-mapping>

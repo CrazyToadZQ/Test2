@@ -1,0 +1,18 @@
+﻿<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="Tellyes.Model" namespace="Tellyes.Model">
+  <class name="Tellyes.Model.Camera, Tellyes.Model" table="Camera">
+    <id name="CameraID" column="Camera_ID" type="int" unsaved-value="0">
+      <generator class="native" />
+    </id>
+    <property name="ParentRoomID" column="Parent_Room_ID" type="int"  />
+    <property name="ChildRoomID" column="Child_Room_ID" type="int"  />
+    <property name="CameraIP" column="Camera_IP" type="string"  />
+    <property name="CameraPort" column="Camera_Port" type="string"  />
+    <property name="CameraUsername" column="Camera_Username" type="string"  />
+    <property name="CameraPassword" column="Camera_Password" type="string"  />
+    <property name="CameraMAC" column="Camera_MAC" type="string"  />
+    <property name="CameraClass" column="Camera_Class" type="string"  />
+    <property name="CameraName" column="Camera_Name" type="string"  />
+    <property name="CameraDescribe" column="Camera_Describe" type="string"  />
+  </class>
+</hibernate-mapping>

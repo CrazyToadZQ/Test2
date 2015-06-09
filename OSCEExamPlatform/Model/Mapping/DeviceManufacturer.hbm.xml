@@ -1,0 +1,11 @@
+﻿<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="Tellyes.Model" namespace="Tellyes.Model">
+  <class name="Tellyes.Model.DeviceManufacturer, Tellyes.Model" table="DeviceManufacturer">
+    <id name="DMA_ID" column="DMA_ID" type="int" unsaved-value="0">
+      <generator class="native" />
+    </id>
+    <property name="DMA_Name" column="DMA_Name" type="string"  />
+    <property name="DMA_int" column="DMA_int" type="int"  />
+    <property name="DMA_string" column="DMA_string" type="string"  />
+  </class>
+</hibernate-mapping>

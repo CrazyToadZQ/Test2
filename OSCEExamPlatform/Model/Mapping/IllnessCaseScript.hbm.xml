@@ -1,0 +1,17 @@
+﻿<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="Tellyes.Model" namespace="Tellyes.Model">
+  <class name="Tellyes.Model.IllnessCaseScript, Tellyes.Model" table="IllnessCaseScript">
+    <id name="IllnessCaseScriptID" column="IllnessCaseScriptID" type="int" unsaved-value="0">
+      <generator class="native" />
+    </id>
+    <property name="IllnessCaseScriptName" column="IllnessCaseScriptName" type="string"  />
+    <property name="IllnessCaseID" column="IllnessCaseID" type="int"  />
+    <property name="IllnessCaseScriptContent" column="IllnessCaseScriptContent" type="string"  />
+    <property name="IllnessCaseScriptText" column="IllnessCaseScriptText" type="string"  />
+    <property name="CreatorUserInfoID" column="CreatorUserInfoID" type="int"  />
+    <property name="CreateDatetime" column="CreateDatetime" type="DateTime"  />
+    <property name="ModifierUserInfoID" column="ModifierUserInfoID" type="int"  />
+    <property name="ModifyDatetime" column="ModifyDatetime" type="DateTime"  />
+    <property name="IsValid" column="IsValid" type="int"  />
+  </class>
+</hibernate-mapping>

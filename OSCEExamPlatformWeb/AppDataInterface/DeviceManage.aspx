@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="DeviceManage.aspx.cs" Inherits="OSCEExamPlatformWeb.AppDataInterface.DeviceManage" %>

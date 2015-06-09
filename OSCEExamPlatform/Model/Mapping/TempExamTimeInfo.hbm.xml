@@ -1,0 +1,23 @@
+﻿<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="Tellyes.Model" namespace="Tellyes.Model">
+  <class name="Tellyes.Model.TempExamTimeInfo, Tellyes.Model" table="TempExamTimeInfo">
+    <id name="TempExamTimeInfoID" column="TempExamTimeInfoID" type="int" unsaved-value="0">
+      <generator class="native" />
+    </id>
+    <property name="TempExamTableID" column="TempExamTableID" type="Guid"  />
+    <property name="TempExamTimeInfoDate" column="TempExamTimeInfoDate" type="string"  />
+    <property name="TempExamTimeInfoStartTime" column="TempExamTimeInfoStartTime" type="string"  />
+    <property name="TempExamTimeInfoEndTime" column="TempExamTimeInfoEndTime" type="string"  />
+    <property name="TempExamTimeInfoStudentCount" column="TempExamTimeInfoStudentCount" type="int"  />
+    <property name="TempExamTimeInfoNumber1" column="TempExamTimeInfoNumber1" type="int"  />
+    <property name="TempExamTimeInfoNumber2" column="TempExamTimeInfoNumber2" type="int"  />
+    <property name="TempExamTimeInfoNumber3" column="TempExamTimeInfoNumber3" type="decimal"  />
+    <property name="TempExamTimeInfoNumber4" column="TempExamTimeInfoNumber4" type="decimal"  />
+    <property name="TempExamTimeInfoString1" column="TempExamTimeInfoString1" type="string"  />
+    <property name="TempExamTimeInfoString2" column="TempExamTimeInfoString2" type="string"  />
+    <property name="TempExamTimeInfoString3" column="TempExamTimeInfoString3" type="string"  />
+    <property name="TempExamTimeInfoString4" column="TempExamTimeInfoString4" type="string"  />
+    <property name="TempExamTimeInfoDatetime1" column="TempExamTimeInfoDatetime1" type="DateTime"  />
+    <property name="TempExamTimeInfoDatetime2" column="TempExamTimeInfoDatetime2" type="DateTime"  />
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="Tellyes.Model" namespace="Tellyes.Model">
+  <class name="Tellyes.Model.SingleStationExam_IllnessCase, Tellyes.Model" table="SingleStationExam_IllnessCase">
+    <id name="SingleExam_IllnessCase_ID" column="SingleExam_IllnessCase_ID" type="int" unsaved-value="0">
+      <generator class="native" />
+    </id>
+    <property name="E_ID" column="E_ID" type="Guid"  />
+    <property name="ES_ID" column="ES_ID" type="Guid"  />
+    <property name="Illness_Case_ID" column="Illness_Case_ID" type="int"  />
+    <property name="Illness_Case_Script_ID" column="Illness_Case_Script_ID" type="int"  />
+    <property name="MarkSheetID" column="MarkSheetID" type="int"  />
+  </class>
+</hibernate-mapping>

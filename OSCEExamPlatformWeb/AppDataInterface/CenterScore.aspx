@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="CenterScore.aspx.cs" Inherits="OSCEExamPlatformWeb.AppDataInterface.CenterScore" %>

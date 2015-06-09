@@ -1,0 +1,13 @@
+﻿<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="Tellyes.Model" namespace="Tellyes.Model">
+  <class name="Tellyes.Model.VideoPathInfo, Tellyes.Model" table="VideoPathInfo">
+    <id name="VideoPathInfo_ID" column="VideoPathInfo_ID" type="int" unsaved-value="0">
+      <generator class="native" />
+    </id>
+    <property name="Path_Description" column="Path_Description" type="string"  />
+    <property name="Root_Path" column="Root_Path" type="string"  />
+    <property name="Server_IP" column="Server_IP" type="string"  />
+    <property name="Server_Username" column="Server_Username" type="string"  />
+    <property name="User_Password" column="User_Password" type="string"  />
+  </class>
+</hibernate-mapping>

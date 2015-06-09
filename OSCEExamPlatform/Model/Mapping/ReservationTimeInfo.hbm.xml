@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="Tellyes.Model" namespace="Tellyes.Model">
+  <class name="Tellyes.Model.ReservationTimeInfo, Tellyes.Model" table="ReservationTimeInfo">
+    <id name="ReservationTimeInfoID" column="ReservationTimeInfoID" type="int" unsaved-value="0">
+      <generator class="native" />
+    </id>
+    <property name="EnityID" column="EnityID" type="string"  />
+    <property name="ReservationTimeInfoDateInfo" column="ReservationTimeInfoDateInfo" type="string"  />
+    <property name="ReservationTimeInfoStartTime" column="ReservationTimeInfoStartTime" type="string"  />
+    <property name="ReservationTimeInfoEndTime" column="ReservationTimeInfoEndTime" type="string"  />
+    <property name="ReservationID" column="ReservationID" type="int"  />
+  </class>
+</hibernate-mapping>

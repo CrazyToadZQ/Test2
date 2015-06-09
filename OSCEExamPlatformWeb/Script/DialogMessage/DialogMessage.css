@@ -1,0 +1,150 @@
+﻿/*message_dialog样式表*/
+div#message_dialog div.dialog_content_panel, 
+div#confirm_dialog div.dialog_content_panel {
+    background-repeat: no-repeat;
+    background-position: 5px 15px;
+    width: 235px;
+    height: 65px;
+    display:table-cell;
+    vertical-align: middle;
+}
+div#message_dialog div.info_icon,
+div#confirm_dialog div.info_icon {
+    background-image: url(images/icon-info.gif);
+}
+div#message_dialog div.error_icon,
+div#confirm_dialog div.error_icon {
+    background-image: url(images/icon-error.gif);
+}
+div#message_dialog div.warning_icon,
+div#confirm_dialog div.warning_icon {
+    background-image: url(images/icon-warning.gif);
+}
+div#message_dialog div.question_icon,
+div#confirm_dialog div.question_icon {
+    background-image: url(images/icon-question.gif);
+}
+div#message_dialog span.dialog_message,
+div#confirm_dialog span.dialog_message {
+    display: inline-block; 
+	font-family: "微软雅黑";
+	font-size: 14px;
+	word-break: break-all;
+	width: 140px;
+	text-align: left;
+	margin-left: 60px;
+}
+div#message_dialog div.dialog_button_panel,
+div#confirm_dialog div.dialog_button_panel {
+    clear: both;
+    text-align: center;
+}
+div#confirm_dialog div.dialog_button_panel button.not_first_button {
+    margin-left: 15px;
+}
+div#message_dialog div.dialog_button_panel span.dialog_button, 
+div#confirm_dialog div.dialog_button_panel span.dialog_button {
+    float: left; 
+    margin: 1px 7px 0px 0px; 
+    display: inline-block; 
+    width: 16px; 
+    height: 16px; 
+    background-repeat: no-repeat;
+}
+
+div#message_dialog div.dialog_button_panel span.ui-button-text,
+div#confirm_dialog div.dialog_button_panel span.ui-button-text {
+	font-family: "微软雅黑";
+	font-size: 12px;
+	padding: .4em 1em;
+}
+div#message_dialog div.dialog_button_panel span.ok_button { 
+    float: left; 
+    margin: 1px 7px 0px 0px; 
+    display: inline-block; 
+    width: 16px; 
+    height: 16px; 
+    background-image: url('images/accept_round.png');
+    background-repeat: no-repeat;
+}
+div#confirm_dialog div.dialog_button_panel span.yes_button { 
+    float: left; 
+    margin: 1px 7px 0px 0px; 
+    display: inline-block; 
+    width: 16px; 
+    height: 16px; 
+    background-image: url('images/accept.png');
+    background-repeat: no-repeat;
+}
+div#confirm_dialog div.dialog_button_panel span.no_button { 
+    float: left; 
+    margin: 1px 7px 0px 0px; 
+    display: inline-block; 
+    width: 16px; 
+    height: 16px; 
+    background-image: url('images/cross.png');
+    background-repeat: no-repeat;
+}
+
+/*jquery-ui dialog 按钮图标样式表*/
+div.ui-dialog-buttonpane span.ui-button-text {
+	font-family: "微软雅黑";
+	font-size: 12px;
+}
+div.ui-dialog-buttonpane span.dialog_button {
+    float: left; 
+    margin: 1px 7px 0px 0px; 
+    display: inline-block; 
+    width: 16px; 
+    height: 16px; 
+    background-repeat: no-repeat;
+}
+div.ui-dialog-buttonpane span.accept_button {
+    background-image: url('images/accept_round.png');
+}
+div.ui-dialog-buttonpane span.save_button {
+    background-image: url('images/disk.png');
+}
+div.ui-dialog-buttonpane span.cancel_button {
+    background-image: url('images/cancel.png');
+}
+div.ui-dialog-buttonpane span.yes_button {
+    background-image: url('images/accept_round.png');
+}
+div.ui-dialog-buttonpane span.no_button {
+    background-image: url('images/cross.png');
+}
+div.ui-dialog-buttonpane span.print_button {
+    background-image: url('/images/printer.png');
+}
+div.ui-dialog-buttonpane span.export_button {
+    background-image: url('images/download.gif');
+}
+
+
+
+
+
+
+
+
+.dialog_question_icon {
+	display: inline-block;
+	float: left;
+	width: 32px;
+	height: 32px;
+	margin-left: 5px;
+	margin-top: 15px;
+	background-image: url(/images/icon-question.gif);
+}
+#dialog_question_text {
+	display: inline-block; 
+	float: left;
+	margin-left: 15px;
+	margin-top: 16px;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	width: 150px;
+	word-break: break-all;
+}
+

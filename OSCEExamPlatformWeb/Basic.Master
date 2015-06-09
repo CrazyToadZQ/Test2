@@ -1,0 +1,62 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Basic.master.cs" Inherits="OSCEExamPlatformWeb.Basic" %>
+
+<%@ Register src="UC/copyright.ascx" tagname="copyright" tagprefix="uc1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+    <script src="/js/jquery-1.7.2.min.js" type="text/javascript"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312"/>
+    <%--<script src="JQuery/jquery-2.0.3.min.js" type="text/javascript"></script>--%>
+<meta name="description" content="jPaginate - jQuery Pagination Plugin" />
+        <meta name="keywords" content="jquery, plugin, pagination, fancy" />
+        <script src="/JQuery/jquery.paginate.js" type="text/javascript"></script>
+        <link rel="stylesheet" type="text/css" href="/css/jPaginate.css" media="screen"/>
+    <link href="/css/slideControl.css" rel="stylesheet" type="text/css" />
+    <script src="/JQuery/jquery.slideControl.js" type="text/javascript"></script>
+    <link href="/css/Guide.css" type="text/css" rel="stylesheet" charset="utf-8" />
+    <link href="/css/index.css" type="text/css" rel="stylesheet" charset="utf-8" />
+    <link href="/css/MasterPage2.css" type="text/css" rel="stylesheet" charset="utf-8" />
+    <link href="/css/xtree.css" type="text/css" rel="stylesheet" charset="utf-8"/>
+    <link href="/css/admin.css" type="text/css" rel="stylesheet" charset="utf-8"/>
+    <link type="text/css" href="/js/msgbox/css/msgbox.css" rel="stylesheet" charset="utf-8"/>
+    <link href="css/jquery.datetimepicker.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="/js/msgbox/script/msgbox.js"></script>
+    <link href="/js/colorbox/colorbox.css" rel="stylesheet" type="text/css" />
+    <link href="/css/ElectronExam.css" rel="stylesheet" type="text/css" />
+   <%-- <script src="/admin/js/colorbox/jquery.colorbox-min.js" type="text/javascript"></script>--%>
+    <%--<script src="/Scripts/jquery/maticsoft.jquery.min.js" type="text/javascript"></script>--%>
+    <script src="/js/colorbox/jquery.colorbox.js" type="text/javascript"></script>
+    <script language="javascript" type="text/javascript">
+        function OnSliderValSet() {
+            //            alert("aa");
+            $("[id^='ContentPlaceHolder1_slider']").each(function () {
+                var thisID = $(this).attr('id');
+                if (thisID.indexOf("txtVa") > -1) {
+                    var shou = thisID.substr(0, thisID.indexOf("txtVa"));
+                    //         alert(shou);
+                    var wei = thisID.substr(shou.length + ("txtVa").length, thisID.length - (thisID.indexOf("txtVa") + ("txtVa").length));
+                    //                    alert(shou + "," + wei);
+                    $("#" + shou + "fill" + wei).css("width", $(this).val() + "%");
+                }
+            });
+        }
+    </script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    
+    </asp:ContentPlaceHolder>
+</head>
+<body onload="OnSliderValSet()" onunload="OnSliderValSet">
+    <form id="form1" runat="server" autocomplete="off">
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">        
+        </asp:ContentPlaceHolder>
+    </div>
+       <uc1:copyright ID="copyright2" runat="server" />
+    <asp:ContentPlaceHolder ID="ContentPlaceCheckright" runat="server">        
+     </asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>

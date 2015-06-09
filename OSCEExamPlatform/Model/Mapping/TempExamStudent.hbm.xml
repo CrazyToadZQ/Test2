@@ -1,0 +1,21 @@
+﻿<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="Tellyes.Model" namespace="Tellyes.Model">
+  <class name="Tellyes.Model.TempExamStudent, Tellyes.Model" table="TempExamStudent">
+    <id name="TempExamStudentID" column="TempExamStudentID" type="Guid" unsaved-value="00000000-0000-0000-0000-000000000000">
+
+    </id>
+    <property name="TempExamTableID" column="TempExamTableID" type="Guid"  />
+    <property name="UserInfoID" column="UserInfoID" type="int"  />
+    <property name="ExamNumber" column="ExamNumber" type="int"  />
+    <property name="TempExamStudentNumber1" column="TempExamStudentNumber1" type="int"  />
+    <property name="TempExamStudentNumber2" column="TempExamStudentNumber2" type="int"  />
+    <property name="TempExamStudentNumber3" column="TempExamStudentNumber3" type="decimal"  />
+    <property name="TempExamStudentNumber4" column="TempExamStudentNumber4" type="decimal"  />
+    <property name="TempExamStudentString1" column="TempExamStudentString1" type="string"  />
+    <property name="TempExamStudentString2" column="TempExamStudentString2" type="string"  />
+    <property name="TempExamStudentString3" column="TempExamStudentString3" type="string"  />
+    <property name="TempExamStudentString4" column="TempExamStudentString4" type="string"  />
+    <property name="TempExamStudentDatetime1" column="TempExamStudentDatetime1" type="DateTime"  />
+    <property name="TempExamStudentDatetime2" column="TempExamStudentDatetime2" type="DateTime"  />
+  </class>
+</hibernate-mapping>

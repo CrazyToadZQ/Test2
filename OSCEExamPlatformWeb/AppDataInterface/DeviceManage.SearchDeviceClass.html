@@ -1,0 +1,18 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <form action="/AppDataInterface/DeviceManage.aspx/SearchDeviceClass" method="post">
+    <p>SearchDeviceClass（查询设备分类树形结构）</p>
+    <div>VerificationSerialNumber（设备注册编号）：<input type="text" name="VerificationSerialNumber" value="" style="width:500px;" /></div>
+    <p style="margin-top:125px;">测试专用：
+    <p><input type="radio" name="test" value="1" checked="checked" />查询成功</p>
+    <p><input type="radio" name="test" value="0" />查询失败，数据库错误</p>
+    <p><input type="radio" name="test" value="-2" />查询失败，终端注册信息验证失败</p>
+    </p>
+    <p><input type="submit" /></p>
+    </form>
+</body>
+</html>

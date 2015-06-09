@@ -1,0 +1,23 @@
+﻿<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="Tellyes.Model" namespace="Tellyes.Model">
+  <class name="Tellyes.Model.DeviceUse, Tellyes.Model" table="DeviceUse">
+    <id name="DU_ID" column="DU_ID" type="int" unsaved-value="0">
+      <generator class="native" />
+    </id>
+    <property name="D_ID" column="D_ID" type="int"  />
+    <property name="E_ID" column="E_ID" type="Guid"  />
+    <property name="RoomID" column="RoomID" type="int"  />
+    <property name="DU_StartTime" column="DU_StartTime" type="DateTime"  />
+    <property name="DU_EndTime" column="DU_EndTime" type="DateTime"  />
+    <property name="DU_TimeSpan" column="DU_TimeSpan" type="int"  />
+    <property name="DU_Number1" column="DU_Number1" type="int"  />
+    <property name="DU_Number2" column="DU_Number2" type="int"  />
+    <property name="DU_Number3" column="DU_Number3" type="int"  />
+    <property name="DU_Number4" column="DU_Number4" type="int"  />
+    <property name="DU_String1" column="DU_String1" type="string"  />
+    <property name="DU_String2" column="DU_String2" type="string"  />
+    <property name="DU_String3" column="DU_String3" type="string"  />
+    <property name="DU_String4" column="DU_String4" type="string"  />
+    <property name="DU_String5" column="DU_String5" type="string"  />
+  </class>
+</hibernate-mapping>

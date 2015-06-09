@@ -1,0 +1,23 @@
+﻿<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="Tellyes.Model" namespace="Tellyes.Model">
+  <class name="Tellyes.Model.UserOrganization, Tellyes.Model" table="UserOrganization">
+    <composite-id>
+      <key-property name="O_ID" column="O_ID" type="int"  />
+      <key-property name="U_ID" column="U_ID" type="int"  />
+
+    </composite-id>
+
+    <property name="int1" column="int1" type="int"  />
+    <property name="int2" column="int2" type="int"  />
+    <property name="int3" column="int3" type="int"  />
+    <property name="string1" column="string1" type="string"  />
+    <property name="string2" column="string2" type="string"  />
+    <property name="string3" column="string3" type="string"  />
+    <property name="date1" column="date1" type="DateTime"  />
+    <property name="date2" column="date2" type="DateTime"  />
+    <property name="date3" column="date3" type="DateTime"  />
+    <property name="float1" column="float1" type="decimal"  />
+    <property name="float2" column="float2" type="decimal"  />
+    <property name="float3" column="float3" type="decimal"  />
+  </class>
+</hibernate-mapping>

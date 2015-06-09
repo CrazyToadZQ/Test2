@@ -1,0 +1,15 @@
+﻿<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="Tellyes.Model" namespace="Tellyes.Model">
+  <class name="Tellyes.Model.ExamUserMarkSheet, Tellyes.Model" table="ExamUserMarkSheet">
+    <id name="EUMS_ID" column="EUMS_ID" type="int" unsaved-value="0">
+      <generator class="native" />
+    </id>
+    <property name="EU_ID" column="EU_ID" type="Guid"  />
+    <property name="MS_ID" column="MS_ID" type="int"  />
+    <property name="int1" column="int1" type="int"  />
+    <property name="int2" column="int2" type="Guid"  />
+    <property name="int3" column="int3" type="int"  />
+    <property name="string1" column="string1" type="Guid"  />
+    <property name="string2" column="string2" type="Guid"  />
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="Tellyes.Model" namespace="Tellyes.Model">
+  <class name="Tellyes.Model.ScoreLog, Tellyes.Model" table="ScoreLog">
+    <id name="ScoreLogID" column="ScoreLogID" type="int" unsaved-value="0">
+      <generator class="native" />
+    </id>
+    <property name="LogUserInfoID" column="LogUserInfoID" type="int"  />
+    <property name="LogDatetime" column="LogDatetime" type="DateTime"  />
+    <property name="LogType" column="LogType" type="int"  />
+    <property name="ScoreSummariedScoreID" column="ScoreSummariedScoreID" type="int"  />
+    <property name="E_ID" column="E_ID" type="Guid"  />
+    <property name="ES_ID" column="ES_ID" type="Guid"  />
+    <property name="Room_ID" column="Room_ID" type="int"  />
+    <property name="StudentUserInfoID" column="StudentUserInfoID" type="int"  />
+    <property name="Score" column="Score" type="decimal"  />
+    <property name="ScoreLogNumber1" column="ScoreLogNumber1" type="int"  />
+    <property name="ScoreLogNumber2" column="ScoreLogNumber2" type="decimal"  />
+    <property name="ScoreLogString1" column="ScoreLogString1" type="string"  />
+    <property name="ScoreLogString2" column="ScoreLogString2" type="string"  />
+    <property name="ScoreLogDatetime1" column="ScoreLogDatetime1" type="DateTime"  />
+    <property name="ScoreLogDatetime2" column="ScoreLogDatetime2" type="DateTime"  />
+    <property name="MS_ID" column="MS_ID" type="int"  />
+    <property name="ScorePercent" column="ScorePercent" type="int"  />
+    <property name="ExamStationScore" column="ExamStationScore" type="decimal"  />
+    <property name="ExamStationPercent" column="ExamStationPercent" type="int"  />
+    <property name="ExamScore" column="ExamScore" type="decimal"  />
+  </class>
+</hibernate-mapping>

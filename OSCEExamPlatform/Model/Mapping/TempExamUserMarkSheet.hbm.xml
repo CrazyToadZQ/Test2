@@ -1,0 +1,25 @@
+﻿<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="Tellyes.Model" namespace="Tellyes.Model">
+  <class name="Tellyes.Model.TempExamUserMarkSheet, Tellyes.Model" table="TempExamUserMarkSheet">
+    <id name="TempExamUserMarkSheetID" column="TempExamUserMarkSheetID" type="int" unsaved-value="0">
+      <generator class="native" />
+    </id>
+    <property name="TempExamTableID" column="TempExamTableID" type="Guid"  />
+    <property name="TempExamStationID" column="TempExamStationID" type="Guid"  />
+    <property name="TempExamStationRoomID" column="TempExamStationRoomID" type="Guid"  />
+    <property name="TempExamUserID" column="TempExamUserID" type="Guid"  />
+    <property name="RoomID" column="RoomID" type="int"  />
+    <property name="UserInfoID" column="UserInfoID" type="int"  />
+    <property name="MarkSheetID" column="MarkSheetID" type="int"  />
+    <property name="TempExamUserMarkSheetNumber1" column="TempExamUserMarkSheetNumber1" type="int"  />
+    <property name="TempExamUserMarkSheetNumber2" column="TempExamUserMarkSheetNumber2" type="int"  />
+    <property name="TempExamUserMarkSheetNumber3" column="TempExamUserMarkSheetNumber3" type="decimal"  />
+    <property name="TempExamUserMarkSheetNumber4" column="TempExamUserMarkSheetNumber4" type="decimal"  />
+    <property name="TempExamUserMarkSheetString1" column="TempExamUserMarkSheetString1" type="string"  />
+    <property name="TempExamUserMarkSheetString2" column="TempExamUserMarkSheetString2" type="string"  />
+    <property name="TempExamUserMarkSheetString3" column="TempExamUserMarkSheetString3" type="string"  />
+    <property name="TempExamUserMarkSheetString4" column="TempExamUserMarkSheetString4" type="string"  />
+    <property name="TempExamUserMarkSheetDatetime1" column="TempExamUserMarkSheetDatetime1" type="DateTime"  />
+    <property name="TempExamUserMarkSheetDatetime2" column="TempExamUserMarkSheetDatetime2" type="DateTime"  />
+  </class>
+</hibernate-mapping>

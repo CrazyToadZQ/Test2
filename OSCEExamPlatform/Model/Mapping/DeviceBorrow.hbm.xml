@@ -1,0 +1,28 @@
+﻿<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="Tellyes.Model" namespace="Tellyes.Model">
+  <class name="Tellyes.Model.DeviceBorrow, Tellyes.Model" table="DeviceBorrow">
+    <id name="DB_ID" column="DB_ID" type="int" unsaved-value="0">
+      <generator class="native" />
+    </id>
+    <property name="D_ID" column="D_ID" type="int"  />
+    <property name="DB_StartTime" column="DB_StartTime" type="DateTime"  />
+    <property name="DB_EndTime" column="DB_EndTime" type="DateTime"  />
+    <property name="DB_TimeSpan" column="DB_TimeSpan" type="int"  />
+    <property name="DB_Reason" column="DB_Reason" type="string"  />
+    <property name="DB_ContactPersonCompany" column="DB_ContactPersonCompany" type="string"  />
+    <property name="DB_ContactPerson" column="DB_ContactPerson" type="string"  />
+    <property name="DB_ContactPersonPhone" column="DB_ContactPersonPhone" type="string"  />
+    <property name="DB_ReturnState" column="DB_ReturnState" type="string"  />
+    <property name="DB_OperatePersonID" column="DB_OperatePersonID" type="int"  />
+    <property name="DB_OperatePersonName" column="DB_OperatePersonName" type="string"  />
+    <property name="DB_Number1" column="DB_Number1" type="int"  />
+    <property name="DB_Number2" column="DB_Number2" type="int"  />
+    <property name="DB_Number3" column="DB_Number3" type="int"  />
+    <property name="DB_Number4" column="DB_Number4" type="int"  />
+    <property name="DB_String1" column="DB_String1" type="string"  />
+    <property name="DB_String2" column="DB_String2" type="string"  />
+    <property name="DB_String3" column="DB_String3" type="string"  />
+    <property name="DB_String4" column="DB_String4" type="string"  />
+    <property name="DB_String5" column="DB_String5" type="string"  />
+  </class>
+</hibernate-mapping>

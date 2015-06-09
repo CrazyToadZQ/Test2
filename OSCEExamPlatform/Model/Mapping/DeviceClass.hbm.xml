@@ -1,0 +1,14 @@
+﻿<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="Tellyes.Model" namespace="Tellyes.Model">
+  <class name="Tellyes.Model.DeviceClass, Tellyes.Model" table="DeviceClass">
+    <id name="DC_ID" column="DC_ID" type="int" unsaved-value="0">
+      <generator class="native" />
+    </id>
+    <property name="DC_Name" column="DC_Name" type="string"  />
+    <property name="DC_ParentID" column="DC_ParentID" type="int"  />
+    <property name="DC_Content" column="DC_Content" type="string"  />
+    <property name="DC_IsValid" column="DC_IsValid" type="int"  />
+    <property name="DC_int" column="DC_int" type="int"  />
+    <property name="DC_string" column="DC_string" type="string"  />
+  </class>
+</hibernate-mapping>

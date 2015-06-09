@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="Tellyes.Model" namespace="Tellyes.Model">
+  <class name="Tellyes.Model.ReservationResource, Tellyes.Model" table="ReservationResource">
+    <id name="Reservation_Res_ID" column="Reservation_Res_ID" type="int" unsaved-value="0">
+      <generator class="native" />
+    </id>
+    <property name="Reservation_ID" column="Reservation_ID" type="int" />
+    <property name="ResourceID" column="ResourceID" type="string" />
+    <property name="Resource_Type" column="Resource_Type" type="string" />
+    <property name="EnityID" column="EnityID" type="string"  />
+    <property name="String1" column="String1" type="string"  />
+  </class>
+</hibernate-mapping>

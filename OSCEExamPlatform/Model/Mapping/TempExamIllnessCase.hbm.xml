@@ -1,0 +1,25 @@
+﻿<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="Tellyes.Model" namespace="Tellyes.Model">
+  <class name="Tellyes.Model.TempExamIllnessCase, Tellyes.Model" table="TempExamIllnessCase">
+    <id name="TempExamIllnessCaseID" column="TempExamIllnessCaseID" type="int" unsaved-value="0">
+      <generator class="native" />
+    </id>
+    <property name="TempExamTableID" column="TempExamTableID" type="Guid"  />
+    <property name="TempExamStationID" column="TempExamStationID" type="Guid"  />
+    <property name="TempExamStationRoomID" column="TempExamStationRoomID" type="Guid"  />
+    <property name="RoomID" column="RoomID" type="int"  />
+    <property name="IllnessCaseID" column="IllnessCaseID" type="int"  />
+    <property name="IllnessCaseScriptID" column="IllnessCaseScriptID" type="int"  />
+    <property name="MarkSheetID" column="MarkSheetID" type="int"  />
+    <property name="TempExamIllnessCaseNumber1" column="TempExamIllnessCaseNumber1" type="int"  />
+    <property name="TempExamIllnessCaseNumber2" column="TempExamIllnessCaseNumber2" type="int"  />
+    <property name="TempExamIllnessCaseNumber3" column="TempExamIllnessCaseNumber3" type="decimal"  />
+    <property name="TempExamIllnessCaseNumber4" column="TempExamIllnessCaseNumber4" type="decimal"  />
+    <property name="TempExamIllnessCaseString1" column="TempExamIllnessCaseString1" type="string"  />
+    <property name="TempExamIllnessCaseString2" column="TempExamIllnessCaseString2" type="string"  />
+    <property name="TempExamIllnessCaseString3" column="TempExamIllnessCaseString3" type="string"  />
+    <property name="TempExamIllnessCaseString4" column="TempExamIllnessCaseString4" type="string"  />
+    <property name="TempExamIllnessCaseDatetime1" column="TempExamIllnessCaseDatetime1" type="DateTime"  />
+    <property name="TempExamIllnessCaseDatetime2" column="TempExamIllnessCaseDatetime2" type="DateTime"  />
+  </class>
+</hibernate-mapping>

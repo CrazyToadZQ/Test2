@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="Tellyes.Model" namespace="Tellyes.Model">
+  <class name="Tellyes.Model.ExamClass, Tellyes.Model" table="ExamClass">
+    <id name="Exam_Class_ID" column="Exam_Class_ID" type="int" unsaved-value="0">
+      <generator class="native" />
+    </id>
+    <property name="Exam_Class_Name" column="Exam_Class_Name" type="string"  />
+    <property name="Exam_Class_Level" column="Exam_Class_Level" type="int"  />
+    <property name="Is_System" column="Is_System" type="int"  />
+    <property name="Number1" column="Number1" type="int"  />
+  </class>
+</hibernate-mapping>

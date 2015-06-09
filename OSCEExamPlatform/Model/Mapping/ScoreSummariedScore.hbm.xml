@@ -1,0 +1,16 @@
+﻿<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="Tellyes.Model" namespace="Tellyes.Model">
+  <class name="Tellyes.Model.ScoreSummariedScore, Tellyes.Model" table="ScoreSummariedScore">
+    <id name="id" column="id" type="int" unsaved-value="0">
+      <generator class="native" />
+    </id>
+    <property name="Student_ID" column="Student_ID" type="int"  />
+    <property name="E_ID" column="E_ID" type="Guid"  />
+    <property name="ES_ID" column="ES_ID" type="Guid"  />
+    <property name="Room_ID" column="Room_ID" type="int"  />
+    <property name="score" column="score" type="decimal"  />
+    <property name="ScoreType" column="ScoreType" type="int"  />
+    <property name="ScoreModifyUserInfoID" column="ScoreModifyUserInfoID" type="int"  />
+    <property name="LastScoreModifyDate" column="LastScoreModifyDate" type="DateTime"  />
+  </class>
+</hibernate-mapping>

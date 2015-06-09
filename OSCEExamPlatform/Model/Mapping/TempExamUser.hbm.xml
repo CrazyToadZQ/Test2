@@ -1,0 +1,26 @@
+﻿<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="Tellyes.Model" namespace="Tellyes.Model">
+  <class name="Tellyes.Model.TempExamUser, Tellyes.Model" table="TempExamUser">
+    <id name="TempExamUserID" column="TempExamUserID" type="Guid" unsaved-value="00000000-0000-0000-0000-000000000000">
+
+    </id>
+    <property name="TempExamTableID" column="TempExamTableID" type="Guid"  />
+    <property name="TempExamStationID" column="TempExamStationID" type="Guid"  />
+    <property name="TempExamStationRoomID" column="TempExamStationRoomID" type="Guid"  />
+    <property name="RoomID" column="RoomID" type="int"  />
+    <property name="UserInfoID" column="UserInfoID" type="int"  />
+    <property name="UserType" column="UserType" type="int"  />
+    <property name="UserScorePercent" column="UserScorePercent" type="int"  />
+    <property name="UserMarkSheetCount" column="UserMarkSheetCount" type="int"  />
+    <property name="TempExamUserNumber1" column="TempExamUserNumber1" type="int"  />
+    <property name="TempExamUserNumber2" column="TempExamUserNumber2" type="int"  />
+    <property name="TempExamUserNumber3" column="TempExamUserNumber3" type="decimal"  />
+    <property name="TempExamUserNumber4" column="TempExamUserNumber4" type="decimal"  />
+    <property name="TempExamUserString1" column="TempExamUserString1" type="string"  />
+    <property name="TempExamUserString2" column="TempExamUserString2" type="string"  />
+    <property name="TempExamUserString3" column="TempExamUserString3" type="string"  />
+    <property name="TempExamUserString4" column="TempExamUserString4" type="string"  />
+    <property name="TempExamUserDatetime1" column="TempExamUserDatetime1" type="DateTime"  />
+    <property name="TempExamUserDatetime2" column="TempExamUserDatetime2" type="DateTime"  />
+  </class>
+</hibernate-mapping>

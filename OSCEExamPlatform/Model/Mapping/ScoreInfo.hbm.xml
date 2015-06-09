@@ -1,0 +1,24 @@
+﻿<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="Tellyes.Model" namespace="Tellyes.Model">
+  <class name="Tellyes.Model.ScoreInfo, Tellyes.Model" table="ScoreInfo">
+    <id name="SI_ID" column="SI_ID" type="int" unsaved-value="0">
+      <generator class="native" />
+    </id>
+    <property name="Exam_ID" column="Exam_ID" type="Guid"  />
+    <property name="ExamStation_ID" column="ExamStation_ID" type="Guid"  />
+    <property name="Room_ID" column="Room_ID" type="int"  />
+    <property name="Score_Percent" column="Score_Percent" type="int"  />
+    <property name="Student_ID" column="Student_ID" type="int"  />
+    <property name="SI_Type" column="SI_Type" type="int"  />
+    <property name="Rater_ID" column="Rater_ID" type="int"  />
+    <property name="SI_Score" column="SI_Score" type="decimal"  />
+    <property name="SI_ActualScore" column="SI_ActualScore" type="string"  />
+    <property name="SI_Items" column="SI_Items" type="StringClob"  />
+    <property name="SI_DigitalSignature" column="SI_DigitalSignature" type="BinaryBlob"  />
+    <property name="SI_CreateTime" column="SI_CreateTime" type="DateTime"  />
+    <property name="SI_int1" column="SI_int1" type="int"  />
+    <property name="SI_int2" column="SI_int2" type="int"  />
+    <property name="calcuated" column="calcuated" type="int"  />
+    <property name="timeStamp" column="timeStamp" type="string"  />
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="Tellyes.Model" namespace="Tellyes.Model">
+  <class name="Tellyes.Model.SystemDevice, Tellyes.Model" table="SystemDevice">
+    <id name="SD_ID" column="SD_ID" type="string" unsaved-value="0">
+    </id>
+    <property name="SD_Application_Type" column="SD_Application_Type" type="string"  />
+    <property name="SD_Type" column="SD_Type" type="string"  />
+    <property name="SD_HardWare_Version" column="SD_HardWare_Version" type="string"  />
+    <property name="SD_HardWare_System_Version" column="SD_HardWare_System_Version" type="string"  />
+    <property name="SD_HardWare_SerialNumber" column="SD_HardWare_SerialNumber" type="string"  />
+    <property name="SD_CPU_SerialNumber" column="SD_CPU_SerialNumber" type="string"  />
+    <property name="SD_Mainboard_SerialNumber" column="SD_Mainboard_SerialNumber" type="string"  />
+    <property name="SD_BIOS_SerialNumber" column="SD_BIOS_SerialNumber" type="string"  />
+    <property name="SD_HardDisk_SerialNumber" column="SD_HardDisk_SerialNumber" type="string"  />
+    <property name="SD_MAC_Address" column="SD_MAC_Address" type="string"  />
+    <property name="SD_Verification_SerialNumber" column="SD_Verification_SerialNumber" type="string"  />
+    <property name="SD_Registration_Time" column="SD_Registration_Time" type="string"  />
+    <property name="SD_Number1" column="SD_Number1" type="int"  />
+    <property name="SD_Number2" column="SD_Number2" type="int"  />
+    <property name="SD_Number3" column="SD_Number3" type="int"  />
+    <property name="SD_Number4" column="SD_Number4" type="int"  />
+    <property name="SD_String1" column="SD_String1" type="string"  />
+    <property name="SD_String2" column="SD_String2" type="string"  />
+    <property name="SD_String3" column="SD_String3" type="string"  />
+    <property name="SD_String4" column="SD_String4" type="string"  />
+    <property name="SD_String5" column="SD_String5" type="string"  />
+  </class>
+</hibernate-mapping>

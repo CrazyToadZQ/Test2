@@ -1,0 +1,10 @@
+﻿<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="Tellyes.Model" namespace="Tellyes.Model">
+  <class name="Tellyes.Model.IllnessCaseSP, Tellyes.Model" table="IllnessCaseSP">
+    <id name="IllnessCaseSPID" column="IllnessCaseSPID" type="int" unsaved-value="0">
+      <generator class="native" />
+    </id>
+    <property name="IllnessCaseID" column="IllnessCaseID" type="int"  />
+    <property name="SPUserInfoID" column="SPUserInfoID" type="int"  />
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="Tellyes.Model" namespace="Tellyes.Model">
+  <class name="Tellyes.Model.DeviceMaintain, Tellyes.Model" table="DeviceMaintain">
+    <id name="DM_ID" column="DM_ID" type="int" unsaved-value="0">
+       <generator class="native" />
+    </id>
+    <property name="D_ID" column="D_ID" type="int"  />
+    <property name="DM_StartTime" column="DM_StartTime" type="DateTime"  />
+    <property name="DM_EndTime" column="DM_EndTime" type="DateTime"  />
+    <property name="DM_TimeSpan" column="DM_TimeSpan" type="int"  />
+    <property name="DM_Reason" column="DM_Reason" type="string"  />
+    <property name="DM_Result" column="DM_Result" type="string"  />
+    <property name="DM_Fee" column="DM_Fee" type="string"  />
+    <property name="DM_Content" column="DM_Content" type="string"  />
+    <property name="DM_ContactPersonCompany" column="DM_ContactPersonCompany" type="string"  />
+    <property name="DM_ContactPerson" column="DM_ContactPerson" type="string"  />
+    <property name="DM_ContactPersonPhone" column="DM_ContactPersonPhone" type="string"  />
+    <property name="DM_Number1" column="DM_Number1" type="int"  />
+    <property name="DM_Number2" column="DM_Number2" type="int"  />
+    <property name="DM_Number3" column="DM_Number3" type="int"  />
+    <property name="DM_Number4" column="DM_Number4" type="int"  />
+    <property name="DM_String1" column="DM_String1" type="string"  />
+    <property name="DM_String2" column="DM_String2" type="string"  />
+    <property name="DM_String3" column="DM_String3" type="string"  />
+    <property name="DM_String4" column="DM_String4" type="string"  />
+    <property name="DM_String5" column="DM_String5" type="string"  />
+  </class>
+</hibernate-mapping>

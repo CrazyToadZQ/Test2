@@ -1,0 +1,101 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "OSCEExamPlatform\BLL\BLL.csproj", "{38D7AA58-C95B-449B-86C6-A8073A56E11F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "OSCEExamPlatform\Common\Common.csproj", "{E3D8759A-C5EB-402D-9F10-F5C6029A8D1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "OSCEExamPlatform\DAL\DAL.csproj", "{9FE00521-3A8B-42B1-814E-585E99407B2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBUtility", "OSCEExamPlatform\DBUtility\DBUtility.csproj", "{0988C62E-247F-471F-A183-DB509C7A3839}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "OSCEExamPlatform\Model\Model.csproj", "{53995DBB-9836-4647-AD22-865884FDEB9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OSCEExamPlatformWeb", "OSCEExamPlatformWeb\OSCEExamPlatformWeb.csproj", "{C7A82D02-3ACB-4AE6-AB4D-60A32A58C312}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Log4NetUtility", "Log4NetUtility\Log4NetUtility.csproj", "{5F9A47DE-7C2D-4C42-B874-FBAA7331D4D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHibernateUtility", "NHibernateUtility\NHibernateUtility.csproj", "{9EDA436C-A405-484E-B075-4C8AAE975129}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HikvisionCameraUtility", "HikvisionCameraUtility\HikvisionCameraUtility.csproj", "{F20D876E-4473-45FA-9CF1-B1B74E60BAAC}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 10
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://192.168.4.132:8080/tfs/osce
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = OSCEExamPlatform\\BLL\\BLL.csproj
+		SccProjectName1 = OSCEExamPlatform/BLL
+		SccLocalPath1 = OSCEExamPlatform\\BLL
+		SccProjectUniqueName2 = OSCEExamPlatform\\Common\\Common.csproj
+		SccProjectName2 = OSCEExamPlatform/Common
+		SccLocalPath2 = OSCEExamPlatform\\Common
+		SccProjectUniqueName3 = OSCEExamPlatform\\DAL\\DAL.csproj
+		SccProjectName3 = OSCEExamPlatform/DAL
+		SccLocalPath3 = OSCEExamPlatform\\DAL
+		SccProjectUniqueName4 = OSCEExamPlatform\\DBUtility\\DBUtility.csproj
+		SccProjectName4 = OSCEExamPlatform/DBUtility
+		SccLocalPath4 = OSCEExamPlatform\\DBUtility
+		SccProjectUniqueName5 = OSCEExamPlatform\\Model\\Model.csproj
+		SccProjectName5 = OSCEExamPlatform/Model
+		SccLocalPath5 = OSCEExamPlatform\\Model
+		SccProjectUniqueName6 = OSCEExamPlatformWeb\\OSCEExamPlatformWeb.csproj
+		SccProjectName6 = OSCEExamPlatformWeb
+		SccLocalPath6 = OSCEExamPlatformWeb
+		SccProjectUniqueName7 = Log4NetUtility\\Log4NetUtility.csproj
+		SccProjectName7 = Log4NetUtility
+		SccLocalPath7 = Log4NetUtility
+		SccProjectUniqueName8 = NHibernateUtility\\NHibernateUtility.csproj
+		SccProjectName8 = NHibernateUtility
+		SccLocalPath8 = NHibernateUtility
+		SccProjectUniqueName9 = HikvisionCameraUtility\\HikvisionCameraUtility.csproj
+		SccProjectName9 = HikvisionCameraUtility
+		SccLocalPath9 = HikvisionCameraUtility
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38D7AA58-C95B-449B-86C6-A8073A56E11F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38D7AA58-C95B-449B-86C6-A8073A56E11F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38D7AA58-C95B-449B-86C6-A8073A56E11F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38D7AA58-C95B-449B-86C6-A8073A56E11F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3D8759A-C5EB-402D-9F10-F5C6029A8D1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3D8759A-C5EB-402D-9F10-F5C6029A8D1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3D8759A-C5EB-402D-9F10-F5C6029A8D1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3D8759A-C5EB-402D-9F10-F5C6029A8D1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FE00521-3A8B-42B1-814E-585E99407B2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FE00521-3A8B-42B1-814E-585E99407B2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FE00521-3A8B-42B1-814E-585E99407B2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FE00521-3A8B-42B1-814E-585E99407B2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0988C62E-247F-471F-A183-DB509C7A3839}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0988C62E-247F-471F-A183-DB509C7A3839}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0988C62E-247F-471F-A183-DB509C7A3839}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0988C62E-247F-471F-A183-DB509C7A3839}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53995DBB-9836-4647-AD22-865884FDEB9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53995DBB-9836-4647-AD22-865884FDEB9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53995DBB-9836-4647-AD22-865884FDEB9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53995DBB-9836-4647-AD22-865884FDEB9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7A82D02-3ACB-4AE6-AB4D-60A32A58C312}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7A82D02-3ACB-4AE6-AB4D-60A32A58C312}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7A82D02-3ACB-4AE6-AB4D-60A32A58C312}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7A82D02-3ACB-4AE6-AB4D-60A32A58C312}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F9A47DE-7C2D-4C42-B874-FBAA7331D4D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F9A47DE-7C2D-4C42-B874-FBAA7331D4D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F9A47DE-7C2D-4C42-B874-FBAA7331D4D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F9A47DE-7C2D-4C42-B874-FBAA7331D4D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EDA436C-A405-484E-B075-4C8AAE975129}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EDA436C-A405-484E-B075-4C8AAE975129}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EDA436C-A405-484E-B075-4C8AAE975129}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EDA436C-A405-484E-B075-4C8AAE975129}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F20D876E-4473-45FA-9CF1-B1B74E60BAAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F20D876E-4473-45FA-9CF1-B1B74E60BAAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F20D876E-4473-45FA-9CF1-B1B74E60BAAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F20D876E-4473-45FA-9CF1-B1B74E60BAAC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

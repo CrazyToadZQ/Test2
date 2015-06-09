@@ -1,0 +1,58 @@
+﻿<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="Tellyes.Model" namespace="Tellyes.Model">
+  <class name="Tellyes.Model.Device, Tellyes.Model" table="Device">
+    <id name="D_ID" column="D_ID" type="int" unsaved-value="0">
+      <generator class="native" />
+    </id>
+    <property name="D_SerialNumber" column="D_SerialNumber" type="string"  />
+    <property name="D_Name" column="D_Name" type="string"  />
+    <property name="DC_ID" column="DC_ID" type="int"  />
+    <property name="DC_ID1" column="DC_ID1" type="int"  />
+    <property name="DT_ID" column="DT_ID" type="int"  />
+    <property name="D_Model" column="D_Model" type="string"  />
+    <property name="D_Manufacturer" column="D_Manufacturer" type="string"  />
+    <property name="D_ManufacturerNumber" column="D_ManufacturerNumber" type="string"  />
+    <property name="D_ManufactureDate" column="D_ManufactureDate" type="DateTime"  />
+    <property name="D_Batch" column="D_Batch" type="string"  />
+    <property name="D_WarrantyInfo" column="D_WarrantyInfo" type="string"  />
+    <property name="D_Remark" column="D_Remark" type="string"  />
+    <property name="D_RegisterDate" column="D_RegisterDate" type="DateTime"  />
+    <property name="D_Position" column="D_Position" type="string"  />
+    <property name="D_IsCanUse" column="D_IsCanUse" type="int"  />
+    <property name="D_State" column="D_State" type="string"  />
+    <property name="D_StateDescription" column="D_StateDescription" type="string"  />
+    <property name="D_CurrUseCount" column="D_CurrUseCount" type="int"  />
+    <property name="D_ExamUseCount" column="D_ExamUseCount" type="int"  />
+    <property name="D_TotalUseCount" column="D_TotalUseCount" type="int"  />
+    <property name="D_CurrUseTime" column="D_CurrUseTime" type="int"  />
+    <property name="D_ExamUseTime" column="D_ExamUseTime" type="int"  />
+    <property name="D_TotalUseTime" column="D_TotalUseTime" type="int"  />
+    <property name="D_AbnormalCount" column="D_AbnormalCount" type="int"  />
+    <property name="D_RepairedCount" column="D_RepairedCount" type="int"  />
+    <property name="D_TwoDimensionCode" column="D_TwoDimensionCode" type="BinaryBlob"   />
+    <property name="D_Image" column="D_Image" type="BinaryBlob"   />
+    <property name="D_Skill" column="D_Skill" type="string"  />
+    <property name="D_ScoreItems" column="D_ScoreItems" type="string"  />
+    <property name="D_int1" column="D_int1" type="int"  />
+    <property name="D_int2" column="D_int2" type="int"  />
+    <property name="D_int3" column="D_int3" type="int"  />
+    <property name="D_int4" column="D_int4" type="int"  />
+    <property name="D_int5" column="D_int5" type="int"  />
+    <property name="D_string1" column="D_string1" type="string"  />
+    <property name="D_string2" column="D_string2" type="string"  />
+    <property name="D_string3" column="D_string3" type="string"  />
+    <property name="D_string4" column="D_string4" type="string"  />
+    <property name="D_string5" column="D_string5" type="string"  />
+    <property name="D_string6" column="D_string6" type="string"  />
+    <property name="D_string7" column="D_string7" type="string"  />
+    <property name="D_string8" column="D_string8" type="string"  />
+    <property name="D_string9" column="D_string9" type="string"  />
+    <property name="D_string10" column="D_string10" type="string"  />
+    <property name="D_datetime1" column="D_datetime1" type="DateTime"  />
+    <property name="D_datetime2" column="D_datetime2" type="DateTime"  />
+    <property name="D_datetime3" column="D_datetime3" type="DateTime"  />
+    <property name="D_datetime4" column="D_datetime4" type="DateTime"  />
+    <property name="D_datetime5" column="D_datetime5" type="DateTime"  />
+    <property name="D_QRCode" column="D_QRCode" type="string"  />
+  </class>
+</hibernate-mapping>

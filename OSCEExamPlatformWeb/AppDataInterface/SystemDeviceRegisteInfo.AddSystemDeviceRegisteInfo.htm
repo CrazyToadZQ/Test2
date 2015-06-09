@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <form action="/AppDataInterface/SystemDeviceRegisteInfo.aspx/AddSystemDeviceRegisteInfo" method="post">
+    <p>AddSystemDeviceRegisteInfo（手持终端注册(Ipad)）</p>
+    <p>AppType（App的类型）：<input type="text" name="AppType" value="" style="width:500px;" /></p>
+    <p>SystemDeviceType（系统设备类型）：<input type="text" name="SystemDeviceType" value="" style="width:500px;" /></p>
+    <p>MacAddress（终端设备的无线网卡MAC地址）：<input type="text" name="MacAddress" value="" style="width:500px;" /></p>
+    <p>HardWareVersion（硬件版本）：<input type="text" name="HardWareVersion" value="" style="width:500px;" /></p>
+    <p>HardWareSystemVersion（硬件系统版本）：<input type="text" name="HardWareSystemVersion" value="" style="width:500px;" /></p>
+    <p>HardWareSerialNumber（硬件序列号）：<input type="text" name="HardWareSerialNumber" value="" style="width:500px;" /></p>
+    <p>CPUSerialNumber（CPU序列号）：<input type="text" name="CPUSerialNumber" value="" style="width:500px;" /></p>
+    <p>MainboardSerialNumber（主板序列号）：<input type="text" name="MainboardSerialNumber" value="" style="width:500px;" /></p>
+    <p>BIOSSerialNumber（BIOS序列号）：<input type="text" name="BIOSSerialNumber" value="" style="width:500px;" /></p>
+    <p>HardDiskSerialNumber（硬盘序列号）：<input type="text" name="HardDiskSerialNumber" value="" style="width:500px;" /></p>
+
+    <p style="margin-top:125px;">测试专用：
+    <p><input type="radio" name="test" value="1" checked="checked" />查询成功</p>
+    <p><input type="radio" name="test" value="0" />查询失败，数据库错误</p>
+    <p><input type="radio" name="test" value="-1" />查询失败，设备信息不存在</p>
+    <p><input type="radio" name="test" value="-2" />查询失败，终端注册信息验证失败</p>
+    </p>
+    <p><input type="submit" /></p>
+</form>
+</body>
+</html>

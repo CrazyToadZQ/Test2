@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+<div>更新设备信息：</div>
+<div>
+<form action="/AppDataInterface/HandScore.aspx/AddScoreInfo" method="post" enctype="multipart/form-data">
+<p>AddScoreInfo（提交学生评分成绩）</p>
+<div>E_ID（考试ID）：<input type="text" name="E_ID" value="" style="width:500px;" /></div>
+<div>ES_ID（考站ID）：<input type="text" name="ES_ID" value="" style="width:500px;" /></div>
+<div>EU_ID（考试用户ID）：<input type="text" name="EU_ID" value="" style="width:500px;" /></div>
+<div>Room_ID（房间ID）：<input type="text" name="Room_ID" value="168" style="width:500px;" /></div>
+<div>Student_ID（学生用户U_ID）：<input type="text" name="Student_ID" value="111" style="width:500px;" /></div>
+<div>Rater_ID（评委用户U_ID）：<input type="text" name="Rater_ID" value="1" style="width:500px;" /></div>
+<div>SI_Score（评分成绩）：<input type="text" name="SI_Score" value="10" style="width:500px;" /></div>
+<div>SI_Items（评分子项）：<input type="text" name="SI_Items" value="[{&quot;MSI_ID&quot;:&quot;385&quot;,&quot;Item_Score&quot;:&quot;3&quot;},{&quot;MSI_ID&quot;:&quot;386&quot;,&quot;children_item_list&quot;:[{&quot;MSI_ID&quot;:&quot;387&quot;,&quot;Item_Score&quot;:&quot;8&quot;},{&quot;MSI_ID&quot;:&quot;388&quot;,&quot;Item_Score&quot;:&quot;0&quot;},{&quot;MSI_ID&quot;:&quot;389&quot;,&quot;Item_Score&quot;:&quot;5&quot;},{&quot;MSI_ID&quot;:&quot;390&quot;,&quot;Item_Score&quot;:&quot;8&quot;}]},{&quot;MSI_ID&quot;:&quot;391&quot;,&quot;Item_Score&quot;:&quot;1&quot;},{&quot;MSI_ID&quot;:&quot;392&quot;,&quot;Item_Score&quot;:&quot;2&quot;}]" style="width:2500px;" /></div>
+<div>MS_ID（评分表ID）：<input type="text" name="MS_ID" value="10" style="width:500px;" /></div>
+<div>image（签名图片）<input type="file" name="image" style="width:500px;" /></div>
+<p style="margin-top:125px;">测试专用：
+<p><input type="radio" name="test" value="0" />提交错误</p>
+<p><input type="radio" name="test" value="1" checked="checked" />提交正确</p>
+</p>
+<p><input type="submit" /></p>
+</form>
+</div>
+
+</body>
+</html>

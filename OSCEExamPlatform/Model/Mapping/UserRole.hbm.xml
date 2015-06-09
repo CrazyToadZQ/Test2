@@ -1,0 +1,9 @@
+﻿<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="Tellyes.Model" namespace="Tellyes.Model">
+  <class name="Tellyes.Model.UserRole, Tellyes.Model" table="UserRole">
+    <composite-id>
+      <key-property name="R_ID" column="R_ID" type="int"  />
+      <key-property name="U_ID" column="U_ID" type="int"  />
+    </composite-id>
+  </class>
+</hibernate-mapping>

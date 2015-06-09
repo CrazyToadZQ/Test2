@@ -1,0 +1,51 @@
+﻿<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="Tellyes.Model" namespace="Tellyes.Model">
+  <class name="Tellyes.Model.TempExamTable, Tellyes.Model" table="TempExamTable">
+    <id name="TempExamTableID" column="TempExamTableID" type="Guid" unsaved-value="00000000-0000-0000-0000-000000000000">
+
+    </id>
+    <property name="TempExamName" column="TempExamName" type="string"  />
+    <property name="TempExamKind" column="TempExamKind" type="int"  />
+    <property name="ExamClassID" column="ExamClassID" type="int"  />
+    <property name="TempExamStudentCount" column="TempExamStudentCount" type="int"  />
+    <property name="TempExamStationCount" column="TempExamStationCount" type="int"  />
+    <property name="TempExamRoomCount" column="TempExamRoomCount" type="int"  />
+    <property name="TempExamStartTime" column="TempExamStartTime" type="DateTime"  />
+    <property name="TempExamEndTime" column="TempExamEndTime" type="DateTime"  />
+    <property name="TempExamLongExamMinute" column="TempExamLongExamMinute" type="int"  />
+    <property name="TempExamLongScoreMinute" column="TempExamLongScoreMinute" type="int"  />
+    <property name="TempExamShortExamMinute" column="TempExamShortExamMinute" type="int"  />
+    <property name="TempExamShortScoreMinute" column="TempExamShortScoreMinute" type="int"  />
+    <property name="TempExamIsOpenScore" column="TempExamIsOpenScore" type="int"  />
+    <property name="TempExamIsOpenVideo" column="TempExamIsOpenVideo" type="int"  />
+    <property name="TempExamIsComplete" column="TempExamIsComplete" type="int"  />
+    <property name="TempExamState" column="TempExamState" type="int"  />
+    <property name="TempExamCreateTime" column="TempExamCreateTime" type="DateTime"  />
+    <property name="TempExamLastModifyTime" column="TempExamLastModifyTime" type="DateTime"  />
+    <property name="TempExamUserInfoID" column="TempExamUserInfoID" type="int"  />
+    <property name="TempExamNumber1" column="TempExamNumber1" type="int"  />
+    <property name="TempExamNumber2" column="TempExamNumber2" type="int"  />
+    <property name="TempExamNumber3" column="TempExamNumber3" type="int"  />
+    <property name="TempExamNumber4" column="TempExamNumber4" type="long"  />
+    <property name="TempExamNumber5" column="TempExamNumber5" type="long"  />
+    <property name="TempExamNumber6" column="TempExamNumber6" type="decimal"  />
+    <property name="TempExamNumber7" column="TempExamNumber7" type="decimal"  />
+    <property name="TempExamNumber8" column="TempExamNumber8" type="decimal"  />
+    <property name="TempExamNumber9" column="TempExamNumber9" type="decimal"  />
+    <property name="TempExamString1" column="TempExamString1" type="string"  />
+    <property name="TempExamString2" column="TempExamString2" type="string"  />
+    <property name="TempExamString3" column="TempExamString3" type="string"  />
+    <property name="TempExamString4" column="TempExamString4" type="string"  />
+    <property name="TempExamString5" column="TempExamString5" type="string"  />
+    <property name="TempExamString6" column="TempExamString6" type="string"  />
+    <property name="TempExamString7" column="TempExamString7" type="string"  />
+    <property name="TempExamString8" column="TempExamString8" type="string"  />
+    <property name="TempExamString9" column="TempExamString9" type="string"  />
+    <property name="TempExamDatetime1" column="TempExamDatetime1" type="DateTime"  />
+    <property name="TempExamDatetime2" column="TempExamDatetime2" type="DateTime"  />
+    <property name="TempExamDatetime3" column="TempExamDatetime3" type="DateTime"  />
+    <property name="TempExamDatetime4" column="TempExamDatetime4" type="DateTime"  />
+    <property name="TempExamDatetime5" column="TempExamDatetime5" type="DateTime"  />
+    <property name="TempExamDatetime6" column="TempExamDatetime6" type="DateTime"  />
+  </class>
+</hibernate-mapping>

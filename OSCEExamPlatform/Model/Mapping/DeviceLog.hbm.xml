@@ -1,0 +1,23 @@
+﻿<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="Tellyes.Model" namespace="Tellyes.Model">
+  <class name="Tellyes.Model.DeviceLog, Tellyes.Model" table="DeviceLog">
+    <id name="DL_ID" column="DL_ID" type="int" unsaved-value="0">
+      <generator class="native" />
+    </id>
+    <property name="D_ID" column="D_ID" type="int"  />
+    <property name="DL_Type" column="DL_Type" type="string"  />
+    <property name="DL_Description" column="DL_Description" type="string"  />
+    <property name="DL_CreateTime" column="DL_CreateTime" type="DateTime"  />
+    <property name="DL_CreatorID" column="DL_CreatorID" type="int"  />
+    <property name="DL_CreatorName" column="DL_CreatorName" type="string"  />
+    <property name="DL_int1" column="DL_int1" type="int"  />
+    <property name="DL_int2" column="DL_int2" type="int"  />
+    <property name="DL_string1" column="DL_string1" type="string"  />
+    <property name="DL_string2" column="DL_string2" type="string"  />
+    <property name="DL_image" column="DL_image" type="BinaryBlob"  />
+    <property name="DL_Contact_Person" column="DL_Contact_Person" type="string"  />
+    <property name="DL_Contact_Person_Company" column="DL_Contact_Person_Company" type="string"  />
+    <property name="DL_Contact_Person_Phone" column="DL_Contact_Person_Phone" type="string"  />
+    <property name="DL_Reason" column="DL_Reason" type="string"  />
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="Tellyes.Model" namespace="Tellyes.Model">
+  <class name="Tellyes.Model.TempExamStation, Tellyes.Model" table="TempExamStation">
+    <id name="TempExamStationID" column="TempExamStationID" type="Guid" unsaved-value="00000000-0000-0000-0000-000000000000">
+
+    </id>
+    <property name="TempExamTableID" column="TempExamTableID" type="Guid"  />
+    <property name="ExamStationClassID" column="ExamStationClassID" type="int"  />
+    <property name="TempExamStationName" column="TempExamStationName" type="string"  />
+    <property name="TempExamStationContent" column="TempExamStationContent" type="string"  />
+    <property name="TempExamStationCurriculum" column="TempExamStationCurriculum" type="string"  />
+    <property name="TempExamStationKind" column="TempExamStationKind" type="int"  />
+    <property name="TempExamStationSubjectivePercent" column="TempExamStationSubjectivePercent" type="int"  />
+    <property name="TempExamStationOrderNumber" column="TempExamStationOrderNumber" type="int"  />
+    <property name="TempExamStationIsComplete" column="TempExamStationIsComplete" type="int"  />
+    <property name="TempExamStationNumber1" column="TempExamStationNumber1" type="int"  />
+    <property name="TempExamStationNumber2" column="TempExamStationNumber2" type="int"  />
+    <property name="TempExamStationNumber3" column="TempExamStationNumber3" type="int"  />
+    <property name="TempExamStationNumber4" column="TempExamStationNumber4" type="long"  />
+    <property name="TempExamStationNumber5" column="TempExamStationNumber5" type="long"  />
+    <property name="TempExamStationNumber6" column="TempExamStationNumber6" type="decimal"  />
+    <property name="TempExamStationNumber7" column="TempExamStationNumber7" type="decimal"  />
+    <property name="TempExamStationNumber8" column="TempExamStationNumber8" type="decimal"  />
+    <property name="TempExamStationNumber9" column="TempExamStationNumber9" type="decimal"  />
+    <property name="TempExamStationString1" column="TempExamStationString1" type="string"  />
+    <property name="TempExamStationString2" column="TempExamStationString2" type="string"  />
+    <property name="TempExamStationString3" column="TempExamStationString3" type="string"  />
+    <property name="TempExamStationString4" column="TempExamStationString4" type="string"  />
+    <property name="TempExamStationString5" column="TempExamStationString5" type="string"  />
+    <property name="TempExamStationString6" column="TempExamStationString6" type="string"  />
+    <property name="TempExamStationString7" column="TempExamStationString7" type="string"  />
+    <property name="TempExamStationString8" column="TempExamStationString8" type="string"  />
+    <property name="TempExamStationString9" column="TempExamStationString9" type="string"  />
+    <property name="TempExamStationDatetime1" column="TempExamStationDatetime1" type="DateTime"  />
+    <property name="TempExamStationDatetime2" column="TempExamStationDatetime2" type="DateTime"  />
+    <property name="TempExamStationDatetime3" column="TempExamStationDatetime3" type="DateTime"  />
+    <property name="TempExamStationDatetime4" column="TempExamStationDatetime4" type="DateTime"  />
+    <property name="TempExamStationDatetime5" column="TempExamStationDatetime5" type="DateTime"  />
+    <property name="TempExamStationDatetime6" column="TempExamStationDatetime6" type="DateTime"  />
+  </class>
+</hibernate-mapping>

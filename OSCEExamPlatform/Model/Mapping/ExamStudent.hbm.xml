@@ -1,0 +1,10 @@
+﻿<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="Tellyes.Model" namespace="Tellyes.Model">
+  <class name="Tellyes.Model.ExamStudent, Tellyes.Model" table="ExamStudent">
+    <id name="EStu_ID" column="EStu_ID" type="Guid" unsaved-value="00000000-0000-0000-0000-000000000000"></id>
+    <property name="U_ID" column="U_ID" type="int"  />
+    <property name="E_ID" column="E_ID" type="Guid"  />
+    <property name="EStu_ExamNumber" column="EStu_ExamNumber" type="int"  />
+    <property name="EStu_int" column="EStu_int" type="int"  />
+  </class>
+</hibernate-mapping>

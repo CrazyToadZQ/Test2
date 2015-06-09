@@ -1,0 +1,40 @@
+﻿<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="Tellyes.Model" namespace="Tellyes.Model">
+  <class name="Tellyes.Model.GlobalParametersSetting, Tellyes.Model" table="GlobalParametersSetting">
+    <id name="Global_Parameters_Setting_ID" column="Global_Parameters_Setting_ID" type="int" unsaved-value="0">
+      <generator class="native" />
+    </id>
+    <property name="Judge_Is_Support_Binding_Multi_Mark_Sheet" column="Judge_Is_Support_Binding_Multi_Mark_Sheet" type="int"  />
+    <property name="SP_Is_Support_Binding_Mark_Sheet" column="SP_Is_Support_Binding_Mark_Sheet" type="int"  />
+    <property name="Global_Parameter1" column="Global_Parameter1" type="int"  />
+    <property name="Global_Parameter2" column="Global_Parameter2" type="int"  />
+    <property name="Global_Parameter3" column="Global_Parameter3" type="int"  />
+    <property name="Global_Parameter4" column="Global_Parameter4" type="int"  />
+    <property name="Global_Parameter5" column="Global_Parameter5" type="int"  />
+    <property name="Global_Parameter6" column="Global_Parameter6" type="int"  />
+    <property name="Global_Parameter7" column="Global_Parameter7" type="int"  />
+    <property name="Global_Parameter8" column="Global_Parameter8" type="int"  />
+    <property name="Global_Parameter9" column="Global_Parameter9" type="int"  />
+    <property name="Global_Parameter10" column="Global_Parameter10" type="int"  />
+    <property name="Global_Parameter11" column="Global_Parameter11" type="decimal"  />
+    <property name="Global_Parameter12" column="Global_Parameter12" type="decimal"  />
+    <property name="Global_Parameter13" column="Global_Parameter13" type="decimal"  />
+    <property name="Global_Parameter14" column="Global_Parameter14" type="string"  />
+    <property name="Global_Parameter15" column="Global_Parameter15" type="string"  />
+    <property name="Global_Parameter16" column="Global_Parameter16" type="string"  />
+    <property name="Global_Parameter17" column="Global_Parameter17" type="string"  />
+    <property name="Global_Parameter18" column="Global_Parameter18" type="string"  />
+    <property name="Global_Parameter19" column="Global_Parameter19" type="string"  />
+    <property name="Global_Parameter20" column="Global_Parameter20" type="string"  />
+    <property name="Global_Parameter21" column="Global_Parameter21" type="string"  />
+    <property name="Global_Parameter22" column="Global_Parameter22" type="string"  />
+    <property name="Global_Parameter23" column="Global_Parameter23" type="string"  />
+    <property name="Global_Parameter24" column="Global_Parameter24" type="StringClob"  />
+    <property name="Global_Parameter25" column="Global_Parameter25" type="StringClob"  />
+    <property name="Global_Parameter26" column="Global_Parameter26" type="DateTime"  />
+    <property name="Global_Parameter27" column="Global_Parameter27" type="DateTime"  />
+    <property name="Global_Parameter28" column="Global_Parameter28" type="DateTime"  />
+    <property name="Global_Parameter29" column="Global_Parameter29" type="DateTime"  />
+    <property name="Global_Parameter30" column="Global_Parameter30" type="DateTime"  />
+  </class>
+</hibernate-mapping>

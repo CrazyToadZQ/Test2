@@ -1,0 +1,10 @@
+﻿<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="Tellyes.Model" namespace="Tellyes.Model">
+  <class name="Tellyes.Model.RoomExamStationClassRelation, Tellyes.Model" table="RoomExamStationClassRelation">
+    <id name="ID" column="ID" type="int" unsaved-value="0">
+      <generator class="native" />
+    </id>
+    <property name="Room_ID" column="Room_ID" type="int"  />
+    <property name="Exam_Station_Class_ID" column="Exam_Station_Class_ID" type="int"  />
+  </class>
+</hibernate-mapping>

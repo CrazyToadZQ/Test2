@@ -1,0 +1,29 @@
+﻿<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="Tellyes.Model" namespace="Tellyes.Model">
+  <class name="Tellyes.Model.ExamTable, Tellyes.Model" table="ExamTable">
+    <id name="E_ID" column="E_ID" type="Guid" unsaved-value="00000000-0000-0000-0000-000000000000"></id>
+    <property name="E_Name" column="E_Name" type="string"  />
+    <property name="E_StartTime" column="E_StartTime" type="DateTime"  />
+    <property name="E_EndTime" column="E_EndTime" type="DateTime"  />
+    <property name="E_CreateUser" column="E_CreateUser" type="string"  />
+    <property name="E_CreateTime" column="E_CreateTime" type="DateTime"  />
+    <property name="E_ModifyTime" column="E_ModifyTime" type="DateTime"  />
+    <property name="E_Kind" column="E_Kind" type="int"  />
+    <property name="E_OID" column="E_OID" type="string"  />
+    <property name="E_GID" column="E_GID" type="string"  />
+    <property name="E_NoStuID" column="E_NoStuID" type="string"  />
+    <property name="E_LongStationExamTimeNum" column="E_LongStationExamTimeNum" type="int"  />
+    <property name="E_LongStationScoreTimeNum" column="E_LongStationScoreTimeNum" type="int"  />
+    <property name="E_ShortStationExamTimeNum" column="E_ShortStationExamTimeNum" type="int"  />
+    <property name="E_ShortStationScoreTimeNum" column="E_ShortStationScoreTimeNum" type="int"  />
+    <property name="E_State" column="E_State" type="int"  />
+    <property name="E_ZadokTheExaminer" column="E_ZadokTheExaminer" type="string"  />
+    <property name="E_IsOpenScore" column="E_IsOpenScore" type="int"  />
+    <property name="E_IsOpenVideo" column="E_IsOpenVideo" type="int"  />
+    <property name="int1" column="int1" type="int"  />
+    <property name="int2" column="int2" type="int"  />
+    <property name="int3" column="int3" type="int"  />
+    <property name="string1" column="string1" type="string"  />
+    <property name="string2" column="string2" type="string"  />
+  </class>
+</hibernate-mapping>

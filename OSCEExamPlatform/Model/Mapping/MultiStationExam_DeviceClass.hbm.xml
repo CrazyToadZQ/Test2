@@ -1,0 +1,13 @@
+﻿<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="Tellyes.Model" namespace="Tellyes.Model">
+  <class name="Tellyes.Model.MultiStationExam_DeviceClass, Tellyes.Model" table="MultiStationExam_DeviceClass">
+    <id name="MSE_DC_ID" column="MSE_DC_ID" type="int" unsaved-value="0">
+      <generator class="native" />
+    </id>
+    <property name="E_ID" column="E_ID" type="Guid"  />
+    <property name="ES_ID" column="ES_ID" type="Guid"  />
+    <property name="Room_ID" column="Room_ID" type="int"  />
+    <property name="DC_ID" column="DC_ID" type="int"  />
+    <property name="DC_Count" column="DC_Count" type="int"  />
+  </class>
+</hibernate-mapping>

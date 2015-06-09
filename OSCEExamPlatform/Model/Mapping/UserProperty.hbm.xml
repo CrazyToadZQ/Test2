@@ -1,0 +1,18 @@
+﻿<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="Tellyes.Model" namespace="Tellyes.Model">
+  <class name="Tellyes.Model.UserProperty, Tellyes.Model" table="UserProperty">
+    <id name="UserPropertyID" column="UserPropertyID" type="int" unsaved-value="0">
+      <generator class="native" />
+    </id>
+    <property name="UserPropertyName" column="UserPropertyName" type="string"  />
+    <property name="UserPropertyNumber1" column="UserPropertyNumber1" type="int"  />
+    <property name="UserPropertyNumber2" column="UserPropertyNumber2" type="int"  />
+    <property name="UserPropertyNumber3" column="UserPropertyNumber3" type="int"  />
+    <property name="UserPropertyNumber4" column="UserPropertyNumber4" type="int"  />
+    <property name="UserPropertyString1" column="UserPropertyString1" type="string"  />
+    <property name="UserPropertyString2" column="UserPropertyString2" type="string"  />
+    <property name="UserPropertyString3" column="UserPropertyString3" type="string"  />
+    <property name="UserPropertyString4" column="UserPropertyString4" type="string"  />
+    <property name="UserPropertyString5" column="UserPropertyString5" type="string"  />
+  </class>
+</hibernate-mapping>

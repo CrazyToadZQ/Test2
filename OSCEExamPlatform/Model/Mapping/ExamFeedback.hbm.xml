@@ -1,0 +1,15 @@
+﻿<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="Tellyes.Model" namespace="Tellyes.Model">
+  <class name="Tellyes.Model.ExamFeedback,Tellyes.Model" table="ExamFeedback">
+    <id name="ExamFeedbackID" column="ExamFeedbackID" type="int" unsaved-value="0">
+      <generator class="native" />
+    </id>
+    <property name="UserInfoID" column="UserInfoID" type="int"  />
+    <property name="UserTrueName" column="UserTrueName" type="string"  />
+    <property name="ExamID" column="ExamID" type="Guid"  />
+    <property name="ExamName" column="ExamName" type="string"  />
+    <property name="RoleName" column="RoleName" type="string"  />
+    <property name="ExamFeedbackContent" column="ExamFeedbackContent" type="string"  />
+    <property name="ExamFeedbackDate" column="ExamFeedbackDate" type="DateTime"  />
+  </class>
+</hibernate-mapping>

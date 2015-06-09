@@ -1,0 +1,27 @@
+﻿<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="Tellyes.Model" namespace="Tellyes.Model">
+  <class name="Tellyes.Model.UserInfo, Tellyes.Model" table="UserInfo">
+    <id name="U_ID" column="U_ID" type="int" unsaved-value="0">
+      <generator class="native" />
+    </id>
+    <property name="U_Name" column="U_Name" type="string"  />
+    <property name="U_TrueName" column="U_TrueName" type="string"  />
+    <property name="U_PWD" column="U_PWD" type="string"  />
+    <property name="U_Sex" column="U_Sex" type="int"  />
+    <property name="U_Phone" column="U_Phone" type="string"  />
+    <property name="U_Phone2" column="U_Phone2" type="string"  />
+    <property name="U_Email" column="U_Email" type="string"  />
+    <property name="U_Email2" column="U_Email2" type="string"  />
+    <property name="U_Contont" column="U_Contont" type="string"  />
+    <property name="U_Photo" column="U_Photo" type="BinaryBlob"  />
+    <property name="U_GoodField" column="U_GoodField" type="string"  />
+    <property name="U_Title" column="U_Title" type="string"  />
+    <property name="date1" column="date1" type="DateTime"  />
+    <property name="string1" column="string1" type="string"  />
+    <property name="U_Ethnic" column="U_Ethnic" type="string"  />
+    <property name="U_Education" column="U_Education" type="string"  />
+    <property name="U_InTime" column="U_InTime" type="DateTime"  />
+    <property name="U_Source" column="U_Source" type="string"  />
+    <property name="U_Unit" column="U_Unit" type="string"  />
+  </class>
+</hibernate-mapping>

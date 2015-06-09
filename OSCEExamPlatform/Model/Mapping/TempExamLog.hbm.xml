@@ -1,0 +1,24 @@
+﻿<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="Tellyes.Model" namespace="Tellyes.Model">
+  <class name="Tellyes.Model.TempExamLog, Tellyes.Model" table="TempExamLog">
+    <id name="TempExamLogID" column="TempExamLogID" type="int" unsaved-value="0">
+      <generator class="native" />
+    </id>
+    <property name="TempExamTableID" column="TempExamTableID" type="Guid"  />
+    <property name="LogType" column="LogType" type="string"  />
+    <property name="LogContent" column="LogContent" type="string"  />
+    <property name="LogDatetime" column="LogDatetime" type="DateTime"  />
+    <property name="LogUserInfoID" column="LogUserInfoID" type="int"  />
+    <property name="LogUerInfoTrueName" column="LogUerInfoTrueName" type="string"  />
+    <property name="TempExamLogNumber1" column="TempExamLogNumber1" type="int"  />
+    <property name="TempExamLogNumber2" column="TempExamLogNumber2" type="int"  />
+    <property name="TempExamLogNumber3" column="TempExamLogNumber3" type="decimal"  />
+    <property name="TempExamLogNumber4" column="TempExamLogNumber4" type="decimal"  />
+    <property name="TempExamLogString1" column="TempExamLogString1" type="string"  />
+    <property name="TempExamLogString2" column="TempExamLogString2" type="string"  />
+    <property name="TempExamLogString3" column="TempExamLogString3" type="string"  />
+    <property name="TempExamLogString4" column="TempExamLogString4" type="string"  />
+    <property name="TempExamLogDatetime1" column="TempExamLogDatetime1" type="DateTime"  />
+    <property name="TempExamLogDatetime2" column="TempExamLogDatetime2" type="DateTime"  />
+  </class>
+</hibernate-mapping>

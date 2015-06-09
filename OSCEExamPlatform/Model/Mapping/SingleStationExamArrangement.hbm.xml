@@ -1,0 +1,16 @@
+﻿<?xml version="1.0"  encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" assembly="Tellyes.Model" namespace="Tellyes.Model">
+  <class name="Tellyes.Model.SingleStationExamArrangement, Tellyes.Model" table="SingleStationExamArrangement">
+    <id name="SE_ID" column="SE_ID" type="int" unsaved-value="0">
+      <generator class="native" />
+    </id>
+    <property name="E_ID" column="E_ID" type="Guid"  />
+    <property name="U_ID" column="U_ID" type="int"  />
+    <property name="Room_ID" column="Room_ID" type="int"  />
+    <property name="SE_StartTime" column="SE_StartTime" type="DateTime"  />
+    <property name="SE_EndTime" column="SE_EndTime" type="DateTime"  />
+    <property name="ES_ID" column="ES_ID" type="Guid"  />
+    <property name="ESR_ID" column="ESR_ID" type="Guid"  />
+    <property name="ExamStudent_ID" column="ExamStudent_ID" type="Guid"  />
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+</head>
+
+<body>
+<form action="/AppDataInterface/UserLogin.aspx/HandScoreUserLogin" method="post">
+<p>HandScoreUserLogin（手持评分用户登录）</p>
+<p>U_Name（用户名）<input name="U_Name" type="text" value="evaluator001" /></p>
+<p>U_PWD（密码）<input name="U_PWD" type="text" value="000000" /></p>
+<p style="margin-top:125px;">测试专用：
+<p><input type="radio" name="test" value="-1" />用户名密码错误</p>
+<p><input type="radio" name="test" value="-2" />权限错误</p>
+<p><input type="radio" name="test" value="0" />当前无考试信息</p>
+<p><input type="radio" name="test" value="1" checked="checked" />正确登录</p>
+</p>
+<p><input type="submit" /></p>
+</form>
+</body>
+</html>
